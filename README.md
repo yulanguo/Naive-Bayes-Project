@@ -1,3 +1,3 @@
 # Naive-Bayes-Project
-CS 348 Assignment
+CS 348 Assignment:
 Naive Bayes Movie Classifier 
