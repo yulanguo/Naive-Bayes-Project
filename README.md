@@ -15,7 +15,7 @@ An implementation of the Naive Bayes algorithm
   Trains the classifier using labeled text input (`"5"` or `"1"` as labels).
 
 - `classify(lines)`  
-  Predicts sentiment for a list of input lines. Returns:
+  Predicts sentiment for a list of reviews. Returns:
   - `"5"` if more likely positive  
   - `"1"` if more likely negative  
   - `"0"` if equal probability
