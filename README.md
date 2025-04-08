@@ -29,5 +29,3 @@ An implementation of the Naive Bayes algorithm
 - Classifies the rest
 - Calculates F-scores using a custom function
 - Asserts model passes performance thresholds using `unittest`
-
----
