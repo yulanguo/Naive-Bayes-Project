@@ -3,7 +3,7 @@
 This project implements a **Naive Bayes classifier** from scratch to perform **binary sentiment classification** on a custom dataset. The classifier is trained to distinguish between positive and negative text entries using word frequencies and probabilistic modeling.
 
 
-## 🔍 Classifier Details
+## Classifier Details
 
 ###  `Bayes_Classifier` (in `student_code.py`)
 
