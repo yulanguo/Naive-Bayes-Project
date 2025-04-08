@@ -6,9 +6,6 @@ Naive Bayes Movie Classifier
 
 This is a simple **Naive Bayes classifier** for binary sentiment classification. It classifies text as either **positive ("5")** or **negative ("1")** based on the frequency of words observed during training.
 
----
-
-### 🛠️ How It Works
 
 #### `train(lines)`
 - Accepts a list of strings, each formatted as `label|metadata|text`.
