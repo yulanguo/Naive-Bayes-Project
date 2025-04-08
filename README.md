@@ -1,26 +1,44 @@
-# Naive-Bayes-Project
-CS 348 Assignment:
-Naive Bayes Movie Classifier 
+#  Naive Bayes Sentiment Classifier
 
-## Bayes_Classifier
-
-This is a simple **Naive Bayes classifier** for binary sentiment classification. It classifies text as either **positive ("5")** or **negative ("1")** based on the frequency of words observed during training.
+This project implements a **Naive Bayes classifier** from scratch to perform **binary sentiment classification** on a custom dataset. The classifier is trained to distinguish between positive and negative text entries using word frequencies and probabilistic modeling.
 
 
-#### `train(lines)`
-- Accepts a list of strings, each formatted as `label|metadata|text`.
-- Parses each line to:
-  - Split the input text into individual words.
-  - Count occurrences of each word within each class (positive or negative).
-  - Track the total number of documents and words in each class.
-  - Build a global vocabulary set of all seen words.
+## 🔍 Classifier Details
 
-#### `classify(lines)`
-- Accepts a list of strings in the same format as training data.
-- For each line:
-  - Applies Laplace smoothing to avoid zero probabilities for unseen words.
-  - Calculates the log-likelihood of the text belonging to the positive and negative classes.
-  - Compares probabilities:
-    - Predicts `"5"` if the positive class probability is higher.
-    - Predicts `"1"` if the negative class probability is higher.
-    - Predicts `"0"` if probabilities are equal.
+###  `Bayes_Classifier` (in `student_code.py`)
+
+A custom implementation of the Naive Bayes algorithm with:
+
+- Bag-of-words model
+- Laplace smoothing
+- Separate word counts for each class
+
+#### Methods:
+
+- `train(lines)`  
+  Trains the classifier using labeled text input (`"5"` or `"1"` as labels).
+
+- `classify(lines)`  
+  Predicts sentiment for a list of input lines. Returns:
+  - `"5"` if more likely positive  
+  - `"1"` if more likely negative  
+  - `"0"` if equal probability
+
+---
+
+## Evaluation Script
+
+### `main.py`
+
+- Loads full dataset (`alldata.txt`)
+- Trains classifier on first 12,478 samples
+- Classifies the rest
+- Calculates F-scores using a custom function
+- Asserts model passes performance thresholds using `unittest`
+
+#### F-score Thresholds:
+
+- F-score for `"5"` (positive): **> 0.90**
+- F-score for `"1"` (negative): **> 0.60**
+
+---
