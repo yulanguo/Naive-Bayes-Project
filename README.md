@@ -20,8 +20,6 @@ An implementation of the Naive Bayes algorithm
   - `"1"` if more likely negative  
   - `"0"` if equal probability
 
----
-
 ## Evaluation Script
 
 ### `main.py`
