@@ -1,17 +1,13 @@
 #  Naive Bayes Sentiment Classifier
 
-This project implements a **Naive Bayes classifier** from scratch to perform **binary sentiment classification** on a custom dataset. The classifier is trained to distinguish between positive and negative text entries using word frequencies and probabilistic modeling.
+This project implements a **Naive Bayes classifier** from scratch to perform **binary sentiment classification** on movie reviews. The classifier is trained to distinguish between positive and negative text entries using word frequencies and probabilistic modeling.
 
 
 ## Classifier Details
 
 ###  `Bayes_Classifier` (in `student_code.py`)
 
-A custom implementation of the Naive Bayes algorithm with:
-
-- Bag-of-words model
-- Laplace smoothing
-- Separate word counts for each class
+An implementation of the Naive Bayes algorithm
 
 #### Methods:
 
@@ -35,10 +31,5 @@ A custom implementation of the Naive Bayes algorithm with:
 - Classifies the rest
 - Calculates F-scores using a custom function
 - Asserts model passes performance thresholds using `unittest`
-
-#### F-score Thresholds:
-
-- F-score for `"5"` (positive): **> 0.90**
-- F-score for `"1"` (negative): **> 0.60**
 
 ---
