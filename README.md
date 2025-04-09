@@ -13,8 +13,6 @@ This project implements a Naive Bayes classifier from scratch to perform sentime
 
 ### Main.py
 
-This script evaluates the performance of the classifier:
-
 - Loads full dataset from `alldata.txt`  
 - Trains the classifier on the first 12,478 samples  
 - Classifies the remaining samples  
