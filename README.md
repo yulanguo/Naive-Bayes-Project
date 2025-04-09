@@ -6,7 +6,7 @@ This project implements a Naive Bayes classifier from scratch to perform sentime
 ### Methods
 
 - `train(lines)`  
-  Trains the classifier using labeled text input.
+  Trains the classifier using text input.
 
 - `classify(lines)`  
   Predicts sentiment for a list of reviews.
