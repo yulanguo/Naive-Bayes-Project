@@ -27,5 +27,5 @@ An implementation of the Naive Bayes algorithm
 - Loads full dataset (`alldata.txt`)
 - Trains classifier on first 12,478 samples
 - Classifies the rest
-- Calculates F-scores using a custom function
+- Calculates F-scores
 - Asserts model passes performance thresholds using `unittest`
