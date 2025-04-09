@@ -4,8 +4,6 @@
 This project implements a Naive Bayes classifier from scratch to perform sentiment classification on movie reviews.  
 The classifier is trained to distinguish between positive and negative reviews using word frequencies and probabilistic modeling.
 
----
-
 ### Methods
 
 - `train(lines)`  
@@ -13,8 +11,6 @@ The classifier is trained to distinguish between positive and negative reviews u
 
 - `classify(lines)`  
   Predicts sentiment for a list of reviews.
-
----
 
 ## Evaluation Script
 
