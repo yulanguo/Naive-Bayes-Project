@@ -12,7 +12,7 @@ The classifier is trained to distinguish between positive and negative reviews u
 - `classify(lines)`  
   Predicts sentiment for a list of reviews.
 
-## Main.py
+### Main.py
 
 This script evaluates the performance of the classifier:
 
