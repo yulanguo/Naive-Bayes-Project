@@ -9,7 +9,7 @@ This project implements a Naive Bayes classifier from scratch to perform sentime
   Trains the classifier using text input.
 
 - `classify(lines)`  
-  Predicts sentiment.
+  Predicts sentiment as positive, negative, or neutral.
 
 ### Main.py
 
